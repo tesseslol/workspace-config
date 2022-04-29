@@ -1,0 +1,444 @@
+version: 3
+hotkeys:
+  toggle-window:
+    - Ctrl-Space
+  copy-current-path: []
+  scroll-to-bottom: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings-tab: {}
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window:
+    - Ctrl-Shift-N
+  new-tab:
+    - Ctrl-Shift-T
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+    - Alt-Enter
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - Ctrl-Shift-Right
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Left
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  explode-tab:
+    - Ctrl-Shift-.
+  combine-tab:
+    - Ctrl-Shift-,
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-E
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-T
+  workspace-profile-1: []
+  workspace-profile-2: []
+  workspace-profile-3: []
+  workspace-profile-4: []
+  workspace-profile-5: []
+  search-in-browser: []
+  show-quick-cmds:
+    - Alt-Q
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: ayu_light
+    foreground: '#5c6773'
+    background: '#fafafa'
+    cursor: '#ff6a00'
+    colors:
+      - '#000000'
+      - '#ff3333'
+      - '#86b300'
+      - '#f29718'
+      - '#41a6d9'
+      - '#f07178'
+      - '#4dbf99'
+      - '#ffffff'
+      - '#323232'
+      - '#ff6565'
+      - '#b8e532'
+      - '#ffc94a'
+      - '#73d8ff'
+      - '#ffa3aa'
+      - '#7ff1cb'
+      - '#ffffff'
+  ligatures: true
+  customColorSchemes:
+    - name: 3024 Day
+      foreground: '#4a4543'
+      background: '#f7f7f7'
+      cursor: '#4a4543'
+      colors:
+        - '#090300'
+        - '#db2d20'
+        - '#01a252'
+        - '#fded02'
+        - '#01a0e4'
+        - '#a16a94'
+        - '#b5e4f4'
+        - '#a5a2a2'
+        - '#5c5855'
+        - '#e8bbd0'
+        - '#3a3432'
+        - '#4a4543'
+        - '#807d7c'
+        - '#d6d5d4'
+        - '#cdab53'
+        - '#f7f7f7'
+    - name: ayu_light
+      foreground: '#5c6773'
+      background: '#fafafa'
+      cursor: '#ff6a00'
+      colors:
+        - '#000000'
+        - '#ff3333'
+        - '#86b300'
+        - '#f29718'
+        - '#41a6d9'
+        - '#f07178'
+        - '#4dbf99'
+        - '#ffffff'
+        - '#323232'
+        - '#ff6565'
+        - '#b8e532'
+        - '#ffc94a'
+        - '#73d8ff'
+        - '#ffa3aa'
+        - '#7ff1cb'
+        - '#ffffff'
+  pasteOnMiddleClick: true
+  font: Fira Code
+  cursor: beam
+  scrollbackLines: 50000
+  background: colorScheme
+  setComSpec: true
+  showRecentProfiles: 5
+ssh:
+  knownHosts:
+    - host: 10.200.100.124
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: tlR3nvVgfGJNlF7qASh4Zlr2p7n+iPMhpbfxxIV/yaM=
+    - host: 192.168.10.57
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: B6RkS1J0ILWHeUjW07Y5uDAoimwYN7YS0VCjHd6NYtk=
+    - host: 172.20.53.114
+      port: 22
+      type: ecdsa-sha2-nistp256
+      digest: a/DY5hXa16NeT+hk5xXP+FdO/U35Q86IarnZs4lxdqU=
+configSync:
+  parts: {}
+clickableLinks: {}
+appearance:
+  theme: Paper
+  vibrancy: true
+hacks: {}
+language: it-IT
+enableAnalytics: false
+enableWelcomeTab: false
+pluginBlacklist: []
+profileDefaults:
+  local:
+    type: local
+    options:
+      env: {}
+      args: []
+    color: '#0275d8'
+  serial:
+    type: serial
+    options:
+      scripts: []
+    color: '#5cb85c'
+  ssh:
+    type: ssh
+    options:
+      algorithms: {}
+    color: '#f0ad4e'
+profiles:
+  - name: KITO CHAIN ITALIA S.R.L.
+    icon: fas fa-desktop
+    options:
+      host: 172.20.53.114
+      user: kito
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    weight: -1
+    id: ssh:custom:KITO-CHAIN-ITALIA-S.R.L.:6014e57d-f4d2-42f4-8a9d-303cbc8178ca
+    group: Clienti
+    type: ssh
+  - name: toffac
+    icon: fas fa-desktop
+    options:
+      host: 192.168.10.57
+      user: smi
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    weight: -1
+    group: Clienti
+    type: ssh
+    id: ssh:custom:toffac:1e25027a-a6fc-4ac0-ad1b-6ced1087bde7
+  - name: 10.200.100.124
+    icon: fas fa-desktop
+    options:
+      host: 10.200.100.124
+      user: ecmuser
+      algorithms:
+        hmac:
+          - hmac-sha1
+          - hmac-sha1-etm@openssh.com
+          - hmac-sha2-256
+          - hmac-sha2-256-etm@openssh.com
+          - hmac-sha2-512
+          - hmac-sha2-512-etm@openssh.com
+        kex:
+          - curve25519-sha256
+          - curve25519-sha256@libssh.org
+          - diffie-hellman-group-exchange-sha256
+          - diffie-hellman-group14-sha256
+          - diffie-hellman-group15-sha512
+          - diffie-hellman-group16-sha512
+          - diffie-hellman-group17-sha512
+          - diffie-hellman-group18-sha512
+          - ecdh-sha2-nistp256
+          - ecdh-sha2-nistp384
+          - ecdh-sha2-nistp521
+        cipher:
+          - aes128-ctr
+          - aes128-gcm
+          - aes128-gcm@openssh.com
+          - aes192-ctr
+          - aes256-ctr
+          - aes256-gcm
+          - aes256-gcm@openssh.com
+        serverHostKey:
+          - ecdsa-sha2-nistp256
+          - ecdsa-sha2-nistp384
+          - ecdsa-sha2-nistp521
+          - rsa-sha2-256
+          - rsa-sha2-512
+          - ssh-ed25519
+          - ssh-rsa
+      auth: password
+      privateKeys: []
+      forwardedPorts: []
+      scripts: []
+    weight: -1
+    group: Clienti
+    type: ssh
+    id: ssh:custom:10.200.100.124:435b7ae3-5158-42eb-bb30-29475f5e2228
+  - type: local
+    name: workspace
+    icon: >-
+      <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+      class="svg-inline--fa fa-terminal fa-w-20 fa-2x" data-icon="terminal"
+      data-prefix="fas" focusable="false" role="img" viewBox="0 0 640 512"><path
+      fill="#0ff" stroke="none" stroke-width="1" d="M257.981 272.971L63.638
+      467.314c-9.373 9.373-24.569 9.373-33.941 0L7.029
+      444.647c-9.357-9.357-9.375-24.522-.04-33.901L161.011 256 6.99
+      101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373
+      24.569-9.373 33.941 0L257.981 239.03c9.373 9.372 9.373 24.568 0
+      33.941zM640 456v-32c0-13.255-10.745-24-24-24H312c-13.255 0-24 10.745-24
+      24v32c0 13.255 10.745 24 24 24h304c13.255 0 24-10.745
+      24-24z"></path></svg>
+    options:
+      command: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+      args:
+        - '-nologo'
+      env:
+        TERM: cygwin
+      cwd: C:\Users\davtes\Documents\workspace\ecm\Discovery-ECM
+    group: Sviluppo
+    id: local:custom:workspace:21179d17-c139-43eb-bdd4-8fe0aa342630
+workspaceManager: {}
+searchInBrowserPlugin: {}
+saveOutput:
+  autoSave: ssh
+  autoSaveDirectory: C:\Users\davtes\Documents
+electronFlags:
+  - - force_discrete_gpu
+    - '0'
+qc:
+  cmds: []
+titleControl: {}
