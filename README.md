@@ -2,7 +2,7 @@
 my workspace config
 
 
-## applicativi da installare
+## My Common Applications
 - cerebro ([https://github.com/lubien/awesome-cerebro](https://github.com/lubien/awesome-cerebro))  
 - cheatKeys (applicativo per tenere traccia delle keywords degli applicativi)  
 - emmet liveStyle e plugin chrome  
@@ -23,7 +23,8 @@ my workspace config
 - tabby
 - oh my posh
 - oh my posh git
-- obs studio  
+- obs studio
+- vs code
 
 ## estensioni vivaldi
 - viumium
@@ -34,8 +35,14 @@ my workspace config
 - https://github.com/iamadamdev/bypass-paywalls-chrome
 - screenity-screen-recorder
 
-### tabby config
-Vedere file configurazione tabby
+### vivaldi config
+Restore the account -> tesseslol
 
-### espanso
+### tabby config
+https://github.com/tesseslol/workspace-config/blob/main/tabby-config.yml
+
+## Vs code config (private)
+https://gist.github.com/tesseslol/725d506f5d24c206289f5b5399c6bcf3
+
+### espanso config
 https://github.com/tesseslol/espanso-config
