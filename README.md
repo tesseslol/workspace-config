@@ -48,6 +48,7 @@ my workspace config
 - ngrev
 - mockroon
 - stretchly
+- https://github.com/zsims/hunt-and-peck (ui select with keyword)
 
 ## vivaldi extensions
 - viumium  
