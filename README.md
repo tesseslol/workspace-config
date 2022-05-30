@@ -41,6 +41,9 @@ my workspace config for windows 10
 - stretchly -> take a break reminder
 - https://github.com/zsims/hunt-and-peck -> ui select with keyword
 
+## optional installed
+- https://github.com/denBot/yasb -> another status bar (works with komorebi)
+
 ## vivaldi extensions
 - responsively -> open responsively in this tab
 - wappalyzer -> get all library used by an application
