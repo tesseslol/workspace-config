@@ -76,13 +76,6 @@ https://github.com/shobrook/rebound
 https://vifm.info/downloads.shtml
 
 
-### tabby config
-https://github.com/tesseslol/workspace-config/blob/main/tabby-config.yml
-
-### espanso
-https://github.com/tesseslol/espanso-config
-
-
 ## other list of software
 - https://github.com/auctors/free-lunch
 - https://github.com/jyguyomarch/awesome-productivity
