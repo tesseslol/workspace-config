@@ -62,6 +62,7 @@ my workspace config for windows 10
 - oh my posh (view configs read.me)
 - oh my posh git  
 - fzf e ripgrep-all (view configs read.me)
+- https://github.com/nativefier/nativefier
 - https://github.com/vors/ZLocation
 - https://github.com/tkellogg/dura -> restore changes without git
 - https://github.com/pemistahl/grex
