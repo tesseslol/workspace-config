@@ -27,22 +27,22 @@ my workspace config for windows 10
 - https://docs.microsoft.com/it-it/windows/powertoys/install -> windows on steroyd
 - tailblazer -> logs manager
 - devdocs-desktop -> all developer refernce in one source 
-- fluent reader (my choice) or rss guard: news feed application
+- fluent reader (my choice) or rss guard -> news feed application
 - obs studio -> record the screen
-- https://github.com/CoatiSoftware/Sourcetrail -> diagram the code
 - [plop.js](https://github.com/plopjs/plop) -> make tamplate for your code
 - https://github.com/alufers/mitmproxy2swagger -> generate a swagger file easly with a proxy. Easily reverse engineering
 - https://keepassxc.org/project/ -> passwords manager
 - https://github.com/rcmdnk/vim_ahk -> navigate like vim everywhere
 - pennywise -> float an application and make it transparent
 - komorebi -> trailing windows manager
-- ngrev -> angular tool
 - mockroon -> mock the rest api easly
 - stretchly -> take a break reminder
 - https://github.com/zsims/hunt-and-peck -> ui select with keyword
 
 ## optional installed
 - https://github.com/denBot/yasb -> another status bar (works with komorebi)
+- ngrev -> angular tool
+- https://github.com/CoatiSoftware/Sourcetrail -> diagram the code
 
 ## vivaldi extensions
 - responsively -> open responsively in this tab
