@@ -68,12 +68,6 @@ my workspace config for windows 10
 - Green Eye -> #edf2eb
 - octo linker
 
-## other list of software
-- https://github.com/auctors/free-lunch
-- https://github.com/jyguyomarch/awesome-productivity
-- https://www.gitlogs.com/most_popular?topic=productivity
-- https://www.gitlogs.com/most_popular?topic=utilities
-
 ## command line tools
 https://github.com/pemistahl/grex
 https://github.com/gleitz/howdoi
@@ -83,7 +77,14 @@ https://vifm.info/downloads.shtml
 
 
 ### tabby config
-Vedere file configurazione tabby
+https://github.com/tesseslol/workspace-config/blob/main/tabby-config.yml
 
 ### espanso
 https://github.com/tesseslol/espanso-config
+
+
+## other list of software
+- https://github.com/auctors/free-lunch
+- https://github.com/jyguyomarch/awesome-productivity
+- https://www.gitlogs.com/most_popular?topic=productivity
+- https://www.gitlogs.com/most_popular?topic=utilities
