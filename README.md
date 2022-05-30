@@ -60,7 +60,7 @@ my workspace config for windows 10
 - Green Eye -> change background color of webpages. #edf2eb 
 - octo linker -> easly navigate on imports in github and bitbucket
 
-# Optional extensions Chrome
+## Optional extensions Chrome
 - Baarden -> (optional). Make workflow on event triggering. Event such as calendar meeting start. Or a new message appear.
 - tab trum -> save tab
 
