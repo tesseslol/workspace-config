@@ -8,7 +8,7 @@ my workspace config for windows 10
 - f.lux  
 - filezilla client  
 - shareX  
-- fork git client  
+- fork -> git client  
 - pencil (mookup)  
 - pulover's macro creator  
 - https://github.com/getferdi/ferdi
@@ -17,21 +17,16 @@ my workspace config for windows 10
 - cold turkey  
 - espanso  
 - tabby  
-- choco
 - KDiff3
-- n8n io (scraping)
-- http toolkit or mitmproxy (o a pagamento fiddler)
-- fzf e ripgrep-all
-- notion + notion enchanter github | or zettlr | or obsidian | or yn
+- n8n
+- http toolkit or mitmproxy (or fiddler for money)
+- notion + notion enchanter | or zettlr | or obsidian | or yn
 - pieces -> cross editor snippets manager 
 - https://github.com/fregante/GhostText
-- https://github.com/vors/ZLocation
 - KeePassXc -> password manager 
 - https://docs.microsoft.com/it-it/windows/powertoys/install
-- tailblazer -> gestisci i log in maniera facilitata
+- tailblazer -> logs manager
 - devdocs-desktop
-- https://github.com/tkellogg/dura -> restore changes without git
-- https://github.com/quenhus/uBlock-Origin-dev-filter
 - fluent reader (una bomba perchè permette i filtri) e rss guard (con più funzionalità ma interfaccia povera)
 - obs studio
 - https://github.com/CoatiSoftware/Sourcetrail
@@ -63,8 +58,12 @@ my workspace config for windows 10
 - octo linker
 
 ## command line tools
-- oh my posh (view config)
+- choco
+- oh my posh (view configs read.me)
 - oh my posh git  
+- fzf e ripgrep-all (view configs read.me)
+- https://github.com/vors/ZLocation
+- https://github.com/tkellogg/dura -> restore changes without git
 - https://github.com/pemistahl/grex
 - https://github.com/gleitz/howdoi
 - https://github.com/httpie/httpie
