@@ -34,8 +34,6 @@ my workspace config for windows 10
 - https://github.com/quenhus/uBlock-Origin-dev-filter
 - fluent reader (una bomba perchè permette i filtri) e rss guard (con più funzionalità ma interfaccia povera)
 - obs studio
-- oh my posh  
-- oh my posh git  
 - https://github.com/CoatiSoftware/Sourcetrail
 - [plop.js](https://github.com/plopjs/plop)
 - https://github.com/alufers/mitmproxy2swagger 
@@ -47,10 +45,6 @@ my workspace config for windows 10
 - mockroon
 - stretchly
 - https://github.com/zsims/hunt-and-peck (ui select with keyword)
-
-## Application Config
-- https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig -> powershell config
-- https://gist.github.com/markwragg/6301bfcd56ce86c3de2bd7e2f09a8839    -> powershell config
 
 ## vivaldi extensions
 - viumium  
@@ -69,6 +63,8 @@ my workspace config for windows 10
 - octo linker
 
 ## command line tools
+- oh my posh (view config)
+- oh my posh git  
 - https://github.com/pemistahl/grex
 - https://github.com/gleitz/howdoi
 - https://github.com/httpie/httpie
@@ -81,3 +77,8 @@ my workspace config for windows 10
 - https://github.com/jyguyomarch/awesome-productivity
 - https://www.gitlogs.com/most_popular?topic=productivity
 - https://www.gitlogs.com/most_popular?topic=utilities
+
+
+## Application Config
+- https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig -> powershell config
+- https://gist.github.com/markwragg/6301bfcd56ce86c3de2bd7e2f09a8839    -> powershell config
