@@ -60,7 +60,8 @@ my workspace config for windows 10
 ## command line tools
 - choco
 - oh my posh (view configs read.me)
-- oh my posh git  
+- oh my posh git
+- https://github.com/watchexec/watchexec -> execute commands on file modification
 - fzf e ripgrep-all (view configs read.me)
 - https://github.com/nativefier/nativefier
 - https://github.com/vors/ZLocation
