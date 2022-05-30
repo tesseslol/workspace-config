@@ -75,6 +75,7 @@ my workspace config for windows 10
 - https://github.com/shobrook/rebound -> isntant fetch stack-overflow when error appear
 - https://vifm.info/downloads.shtml -> navigate in the directory as a vim style
 - https://github.com/withfig/fig -> autocomplete for terminal. wait a windows version
+- https://github.com/gokcehan/lf -> file explorer on the terminal
 
 
 ## other list of software
