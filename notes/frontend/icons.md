@@ -1,0 +1,11 @@
+# icons
+- humaaaans.com  
+- blush.design
+- [https://doodleipsum.com](https://doodleipsum.com) -> lorem ipsum of icons
+- [www.iconbros.com](http://www.iconbros.com)  
+- stooryset.com  
+- iconscout  
+- inconscout.com
+- [https://useanimations.com](https://useanimations.com) -> icone animate
+- https://www.iconshock.com/freeicons
+- https://shape.so
