@@ -3,74 +3,75 @@ my workspace config for windows 10
 
 
 ## Installed Applications
-- cheatKeys -> pop-up with common keyword shortcut
+- cheatKeys -> pop-up with common keyword shortcut (i need an opensource alternative)
 - evrything -> file finder
-- f.lux  
-- filezilla client  
-- shareX  
-- fork -> git client  
-- pencil (mookup)  
-- pulover's macro creator  
-- https://github.com/getferdi/ferdi
-- xmind  
-- autoHotKey  
-- cold turkey  
-- espanso  
-- tabby  
-- KDiff3
-- n8n
-- http toolkit or mitmproxy (or fiddler for money)
-- notion + notion enchanter | or zettlr | or obsidian | or yn
+- f.lux -> change color of the screen to avoid blue colors
+- filezilla client -> ftp client
+- shareX -> screenshot
+- fork -> git client
+- pencil -> mookup a application
+- pulover's macro creator -> record your click and keyword touch and easly replicate
+- https://github.com/getferdi/ferdi -> all web application in one place
+- xmind -> visual graph your ideas
+- autoHotKey -> programming language for automation
+- cold turkey -> take a break from distraction
+- espanso -> text expander (view config)
+- tabby -> ssh and powershell, session manager
+- KDiff3 -> show the difference of 2 texts
+- n8n -> automatize in a visual way your workflow
+- http toolkit or mitmproxy (or fiddler for money) -> proxy for showing all http calls
+- notion + notion enchanter | or zettlr | or obsidian | or yn -> notes application
 - pieces -> cross editor snippets manager 
-- https://github.com/fregante/GhostText
+- https://github.com/fregante/GhostText -> write in the browser and update in the editor
 - KeePassXc -> password manager 
-- https://docs.microsoft.com/it-it/windows/powertoys/install
+- https://docs.microsoft.com/it-it/windows/powertoys/install -> windows on steroyd
 - tailblazer -> logs manager
-- devdocs-desktop
-- fluent reader (una bomba perchè permette i filtri) e rss guard (con più funzionalità ma interfaccia povera)
-- obs studio
-- https://github.com/CoatiSoftware/Sourcetrail
-- [plop.js](https://github.com/plopjs/plop)
-- https://github.com/alufers/mitmproxy2swagger 
+- devdocs-desktop -> all developer refernce in one source 
+- fluent reader (my choice) or rss guard: news feed application
+- obs studio -> record the screen
+- https://github.com/CoatiSoftware/Sourcetrail -> diagram the code
+- [plop.js](https://github.com/plopjs/plop) -> make tamplate for your code
+- https://github.com/alufers/mitmproxy2swagger -> generate a swagger file easly with a proxy. Easily reverse engineering
 - https://keepassxc.org/project/ -> passwords manager
-- https://github.com/rcmdnk/vim_ahk
-- pennywise
-- komorebi trailing windows manager
-- ngrev
-- mockroon
-- stretchly
-- https://github.com/zsims/hunt-and-peck (ui select with keyword)
+- https://github.com/rcmdnk/vim_ahk -> navigate like vim everywhere
+- pennywise -> float an application and make it transparent
+- komorebi -> trailing windows manager
+- ngrev -> angular tool
+- mockroon -> mock the rest api easly
+- stretchly -> take a break reminder
+- https://github.com/zsims/hunt-and-peck -> ui select with keyword
 
 ## vivaldi extensions
-- viumium  
-- responsively  
-- wappalyzer  
-- vimuim
-- Fake Filler
-- automa
-- Definer
-- xBrowserSync
-- https://daily.dev / Githunt
-- tab trum
-- https://github.com/iorate/ublacklist
-- violent monkey -> scripts per le pagine
-- Green Eye -> #edf2eb
-- octo linker
+- responsively -> open responsively in this tab
+- wappalyzer -> get all library used by an application
+- vimuim -> browser like vim
+- Fake Filler -> auto fill inputs
+- automa -> make scripts that can be executed at the start of a page or browser
+- Definer -> an tooltip for easly search selected text
+- xBrowserSync -> sync each bookmark and search in all browser
+- https://daily.dev / Githunt -> a new page plug-in for showing news feed
+- tab trum -> save tab
+- https://github.com/iorate/ublacklist -> configurable url block
+- violent monkey -> user scripts
+- Green Eye -> change background color of webpages. #edf2eb 
+- octo linker -> easly navigate on imports in github and bitbucket
 
 ## command line tools
-- choco
-- oh my posh (view configs read.me)
-- oh my posh git
+- choco -> install manager
+- oh my posh (view configs read.me) -> beatifier powershell
+- oh my posh git -> beatifier for git posh
 - https://github.com/watchexec/watchexec -> execute commands on file modification
-- fzf e ripgrep-all (view configs read.me)
-- https://github.com/nativefier/nativefier
-- https://github.com/vors/ZLocation
+- fzf -> a tool to visualize searches
+- ripgrep-all (view configs read.me) -> search in the content
+- https://github.com/nativefier/nativefier -> transform a webpage into a desktop application
+- https://github.com/vors/ZLocation -> navigate on common used directory easly
 - https://github.com/tkellogg/dura -> restore changes without git
-- https://github.com/pemistahl/grex
-- https://github.com/gleitz/howdoi
-- https://github.com/httpie/httpie
-- https://github.com/shobrook/rebound
-- https://vifm.info/downloads.shtml
+- https://github.com/pemistahl/grex -> regex easy
+- https://github.com/gleitz/howdoi -> instant coding answare
+- https://github.com/httpie/httpie -> easier curl
+- https://github.com/shobrook/rebound -> isntant fetch stack-overflow when error appear
+- https://vifm.info/downloads.shtml -> navigate in the directory as a vim style
+- https://github.com/withfig/fig -> autocomplete for terminal. wait a windows version
 
 
 ## other list of software
