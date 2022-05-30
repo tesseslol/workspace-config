@@ -44,7 +44,7 @@ my workspace config for windows 10
 - ngrev -> angular tool
 - https://github.com/CoatiSoftware/Sourcetrail -> diagram the code
 
-## vivaldi extensions
+## Chrome extensions
 - responsively -> open responsively in this tab
 - wappalyzer -> get all library used by an application
 - vimuim -> browser like vim
@@ -53,11 +53,14 @@ my workspace config for windows 10
 - Definer -> an tooltip for easly search selected text
 - xBrowserSync -> sync each bookmark and search in all browser
 - https://daily.dev / Githunt -> a new page plug-in for showing news feed
-- tab trum -> save tab
 - https://github.com/iorate/ublacklist -> configurable url block
 - violent monkey -> user scripts
 - Green Eye -> change background color of webpages. #edf2eb 
 - octo linker -> easly navigate on imports in github and bitbucket
+
+# Optional extensions Chrome
+- Baarden -> (optional). Make workflow on event triggering. Event such as calendar meeting start. Or a new message appear.
+- tab trum -> save tab
 
 ## command line tools
 - choco -> install manager
