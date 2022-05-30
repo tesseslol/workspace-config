@@ -1,5 +1,5 @@
-# workspace-config
-my workspace config
+# Workspace-config Windows
+my workspace config for windows 10
 
 
 ## Installed Applications
@@ -23,12 +23,10 @@ my workspace config
 - http toolkit or mitmproxy (o a pagamento fiddler)
 - fzf e ripgrep-all
 - notion + notion enchanter github | or zettlr | or obsidian | or yn
-- pieces -> snippets manager (il problema è fastidioso e non hai modo di backuppare il db)
+- pieces -> cross editor snippets manager 
 - https://github.com/fregante/GhostText
 - https://github.com/vors/ZLocation
 - KeePassXc -> password manager 
-- https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig -> configurazione powershell
-- https://gist.github.com/markwragg/6301bfcd56ce86c3de2bd7e2f09a8839    -> configurazione powershell
 - https://docs.microsoft.com/it-it/windows/powertoys/install
 - tailblazer -> gestisci i log in maniera facilitata
 - devdocs-desktop
@@ -50,13 +48,17 @@ my workspace config
 - stretchly
 - https://github.com/zsims/hunt-and-peck (ui select with keyword)
 
+## Application Config
+- https://github.com/mezdelex/WindowsTerminalPowerShellCoreConfig -> powershell config
+- https://gist.github.com/markwragg/6301bfcd56ce86c3de2bd7e2f09a8839    -> powershell config
+
 ## vivaldi extensions
 - viumium  
 - responsively  
 - wappalyzer  
 - vimuim
 - Fake Filler
-- automa -> automatizza qualsiasi operazione
+- automa
 - Definer
 - xBrowserSync
 - https://daily.dev / Githunt
