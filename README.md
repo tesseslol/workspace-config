@@ -69,11 +69,11 @@ my workspace config for windows 10
 - octo linker
 
 ## command line tools
-https://github.com/pemistahl/grex
-https://github.com/gleitz/howdoi
-https://github.com/httpie/httpie
-https://github.com/shobrook/rebound
-https://vifm.info/downloads.shtml
+- https://github.com/pemistahl/grex
+- https://github.com/gleitz/howdoi
+- https://github.com/httpie/httpie
+- https://github.com/shobrook/rebound
+- https://vifm.info/downloads.shtml
 
 
 ## other list of software
