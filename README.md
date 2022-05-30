@@ -39,6 +39,7 @@ my workspace config for windows 10
 - mockroon -> mock the rest api easly
 - stretchly -> take a break reminder
 - https://github.com/zsims/hunt-and-peck -> ui select with keyword
+- https://github.com/fcFn/traymond : minimize to tray icon (windows + shift + z)
 
 ## optional installed
 - https://github.com/denBot/yasb -> another status bar (works with komorebi)
