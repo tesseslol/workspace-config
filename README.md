@@ -20,8 +20,8 @@ my workspace config for windows 10
 - KDiff3 -> show the difference of 2 texts
 - n8n -> automatize in a visual way your workflow
 - http toolkit or mitmproxy (or fiddler for money) -> proxy for showing all http calls
-- notion + notion enchanter or obsidian (cool but not free) -> notes application
--  or zettlr (my choice for notes) or nimblenote (my choice for fast notes) ->
+-  obsidian (cool but not free) -> notes application
+-  or zettlr (my choice for notes) or nimblenote (my choice for fast notes) or https://github.com/rust-lang/mdBook (cli notes)
 - pieces -> cross editor snippets manager 
 - https://github.com/fregante/GhostText -> write in the browser and update in the editor
 - KeePassXc -> password manager 
