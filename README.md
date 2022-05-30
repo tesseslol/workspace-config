@@ -3,7 +3,7 @@ my workspace config for windows 10
 
 
 ## Installed Applications
-- cheatKeys -> opo-up with common keyword shortcut
+- cheatKeys -> pop-up with common keyword shortcut
 - evrything -> file finder
 - f.lux  
 - filezilla client  
