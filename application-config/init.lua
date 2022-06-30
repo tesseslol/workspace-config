@@ -117,6 +117,7 @@ lvim.plugins = {
             'class',
             'function',
             'method',
+            '= {'
           },
         },
       }
@@ -137,8 +138,13 @@ lvim.plugins = {
     "sindrets/diffview.nvim",
     event = "BufRead",
   },
+  -- doesn't works
   {
-    "gelguy/wilder.nvim"
+    "gelguy/wilder.nvim",
+    config = function()
+      local wilder = require('wilder')
+      wilder.setup({ modes = { ':', '/', '?' }, })
+    end,
   },
   { "mbbill/undotree" },
   {
@@ -219,7 +225,7 @@ lvim.plugins = {
   {
     "monaqa/dial.nvim",
     event = "BufRead",
-    config = function()
+    setup = function()
       local dial = require "dial"
       vim.cmd [[
     nmap <C-a> <Plug>(dial-increment)
@@ -261,8 +267,7 @@ lvim.plugins = {
   },
   {
     "nvim-telescope/telescope-fzy-native.nvim",
-    run = "make",
-    event = "BufRead",
+    run = "make", event = "BufRead",
   },
   {
     "simrat39/symbols-outline.nvim",
@@ -353,11 +358,18 @@ lvim.plugins = {
       { 'ray-x/guihua.lua', run = 'cd lua/fzy && make' },
       { 'neovim/nvim-lspconfig' },
     },
-    setup = function()
+    config = function()
       require 'navigator'.setup()
     end,
   },
   { 'lukas-reineke/cmp-under-comparator' },
+  { 'RishabhRD/popfix' },
+  { 'RishabhRD/nvim-cheat.sh' },
+  { "oberblastmeister/neuron.nvim" },
+  { 'nvim-orgmode/orgmode', config = function()
+    require('orgmode').setup {}
+  end
+  }
 }
 
 
@@ -435,6 +447,12 @@ vim.keymap.set("v", "I", "<esc>I")
 vim.keymap.set("v", "A", "<esc>A")
 vim.keymap.set("i", "<C-x>", "<esc>xi")
 vim.keymap.set("i", "<A-s>", "<esc>:lua require'lightspeed'.sx:go({})<cr>")
+vim.keymap.set("n", "x", "\"_x")
+vim.keymap.set("n", "X", "\"_X")
+vim.keymap.set("n", "dd", "\"_dd")
+vim.keymap.set("n", "dW", "\"_dW")
+vim.keymap.set("n", "dw", "\"_dw")
+
 -- vim.keymap.set("i", "<S-s>", "<esc>:lua require'lightspeed'.sx:go({ ['reverse?'] = true })<cr>")
 
 -- vim fix me
@@ -512,17 +530,17 @@ lvim.builtin.nvimtree.setup.update_focused_file.update_cwd = false
 lvim.builtin.nvimtree.setup.view.side = "float"
 
 -- if you don't want all the parsers change this to a table of the ones you want
--- lvim.builtin.treesitter.ensure_installed = {
---   "typescript",
---   "javascript",
---   "tml",
---   "css",
---   "scss",
---   "nodejs",
---   "node",
---   "angular",
---   "lua",
--- }
+lvim.builtin.treesitter.ensure_installed = {
+  "typescript",
+  "javascript",
+  "tml",
+  "css",
+  "scss",
+  "nodejs",
+  "node",
+  "angular",
+  "lua",
+}
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.rainbow.enable = true
@@ -580,7 +598,7 @@ formatters.setup {
   },
 }
 
--- -- set additional linters
+-- set additional linters
 local linters = require "lvim.lsp.null-ls.linters"
 linters.setup {
 
@@ -676,7 +694,9 @@ Hydra({
 
 
 
-lvim.builtin.which_key.mappings["C"] = { ":CheatSH<cr>", "CheatSH" }
+vim.keymap.set("i", "<A-c>", "<esc>:CheatWithoutComment " .. vim.bo.filetype .. "<cr>")
+lvim.builtin.which_key.mappings["C"] = { ":CheatWithoutComment <cr>", "Cheat" }
+
 lvim.builtin.which_key.mappings["T"] = {
   name = "+Text-case",
   u = { ":lua require('textcase').lsp_rename('to_upper_case')<CR>'<,'>", "Upper" },
@@ -684,21 +704,20 @@ lvim.builtin.which_key.mappings["T"] = {
   s = { ":lua require('textcase').lsp_rename('to_snake_case')<CR>'<,'>", "snake" },
   d = { ":lua require('textcase').lsp_rename('to_dash_case')<CR>'<,'>", "dash" },
   n = { ":lua require('textcase').lsp_rename('to_constant_case')<CR>'<,'>", "constant" },
-  o = { ":lua require('textcase').lsp_rename('to_dot_case')<cr>", "D-o.t" },
-  h = { ":lua require('textcase').lsp_rename('to_phrase_case')<CR>\'<,\'>", "phrase" },
-  c = { ":lua require('textcase').lsp_rename('to_camel_case')<CR>\'<,\'>", "camel" },
-  p = { ":lua require('textcase').lsp_rename('to_pascal_case')<CR>\'<,\'>", "pascal" },
+  o = { ":lua require('textcase').lsp_rename('to_dot_case')<cr>", "Dot" },
+  h = { ":lua require('textcase').lsp_rename('to_phrase_case')<CR>'<,'>", "phrase" },
+  c = { ":lua require('textcase').lsp_rename('to_camel_case')<CR>'<,'>", "camel" },
+  p = { ":lua require('textcase').lsp_rename('to_pascal_case')<CR>'<,'>", "pascal" },
   t = { ":lua require('textcase').lsp_rename('to_title_case')<CR>'<,'>", "title" },
-  f = { ":lua require('textcase').lsp_rename('to_path_case')<CR>\'<,\'>", "file_path" }
+  f = { ":lua require('textcase').lsp_rename('to_path_case')<CR>'<,'>", "file_path" }
 }
-
+-- https://www.google.com/
 
 lvim.builtin.dap.active = true
 lvim.builtin.notify.active = true
 
 -- documentation code generator
 require('neogen').setup({ snippet_engine = "luasnip" })
--- vim.api.nvim_set_keymap("n", "<Leader>nf", ":lua require('neogen').generate()<CR>", opts)
 
 
 -- insert in cmp
@@ -706,12 +725,11 @@ require('neogen').setup({ snippet_engine = "luasnip" })
 -- -- load refactoring Telescope extension
 
 -- remap to open the Telescope refactoring menu in visual mode
-vim.api.nvim_set_keymap(
-  "v",
-  "<leader>r",
+
+lvim.builtin.which_key.mappings["r"] = {
   "<Esc><cmd>lua require('telescope').extensions.refactoring.refactors()<CR>",
-  { noremap = true }
-)
+  "refactor"
+}
 
 require('nvim-treesitter.configs').setup {
   autotag = {
@@ -720,3 +738,20 @@ require('nvim-treesitter.configs').setup {
 }
 
 require('nvim-lightbulb').setup({ autocmd = { enabled = true } })
+
+
+
+lvim.builtin.which_key.mappings["n"] = {
+  name = "+Neuron",
+  g = { ":lua require('neogen').generate()<CR>", "generate documentation" },
+  -- e = { "<cmd>lua require'neuron'.enter_link()<CR>", "enter link" },
+  -- a = { "<cmd>lua require'neuron/cmd'.new_edit(require'neuron'.config.neuron_dir)<CR>", "new edit" },
+  -- f = { "<cmd>lua require'neuron/telescope'.find_zettels()<CR>", "find zettels" },
+  -- F = { "<cmd>lua require'neuron/telescope'.find_zettels {insert = true}<CR>", "find/insert zettels" },
+  -- b = { "<cmd>lua require'neuron/telescope'.find_backlinks()<CR>", "find backlinks" },
+  -- B = { "<cmd>lua require'neuron/telescope'.find_backlinks {insert = true}<CR>", "find backlinks" },
+  -- t = { "<cmd>lua require'neuron/telescope'.find_tags()<CR>", "find tags" },
+  -- r = { "<cmd>lua require'neuron'.rib {address = \"127.0.0.1:8200\", verbose = true}<CR>", "rib" },
+  -- n = { "<cmd>lua require'neuron'.goto_next_extmark()<CR>", "next_extmark()" },
+  -- p = { "<cmd>lua require'neuron'.goto_prev_extmark()<CR>", "prev_extmark()" },
+}
