@@ -38,6 +38,7 @@ my workspace config for windows 10
 - komorebi -> trailing windows manager
 - mockroon -> mock the rest api easly
 - stretchly -> take a break reminder
+- https://github.com/andrijac/ruler -> pixel ruler
 - https://github.com/zsims/hunt-and-peck -> ui select with keyword
 - https://github.com/fcFn/traymond : minimize to tray icon (windows + shift + z) (need an alternative that don't close application)
 
@@ -74,13 +75,13 @@ my workspace config for windows 10
 - https://github.com/nativefier/nativefier -> transform a webpage into a desktop application
 - https://github.com/vors/ZLocation -> navigate on common used directory easly
 - https://github.com/tkellogg/dura -> restore changes without git
-- https://github.com/pemistahl/grex -> regex easy
 - https://github.com/gleitz/howdoi -> instant coding answare
 - https://github.com/httpie/httpie -> easier curl
 - https://github.com/shobrook/rebound -> isntant fetch stack-overflow when error appear
 - https://vifm.info/downloads.shtml -> navigate in the directory as a vim style
 - https://github.com/withfig/fig -> autocomplete for terminal. wait a windows version
 - https://github.com/gokcehan/lf -> file explorer on the terminal
+- https://stedolan.github.io/jq/ -> json processor
 
 
 ## other list of software
